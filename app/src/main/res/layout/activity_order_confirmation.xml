@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderConfirmation"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/backTV"
+        android:text="Back"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true"
+        android:padding="8dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/BasicAppColor"
+        android:onClick="back"
+        />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo"
+        android:id="@+id/logo"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="160dp"
+        />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="50dp"
+        android:text="Shipment Details"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/shippment_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Your Name"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="10dp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/shippment_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/shippment_name"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="number"
+        android:layout_marginRight="20dp"
+        android:hint="Your Phone Number"
+        />
+
+    <EditText
+        android:id="@+id/shippment_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/shippment_phone_number"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:hint="Your Home Address"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/shippment_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/shippment_address"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:hint="Your City Name"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/confirmOrderbutton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/signup_btn"
+        android:text="Confirm Order"
+        android:layout_margin="15dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/shippment_city"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/welcomeRL1"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:id="@+id/welcomeTV1"
+            android:text="Welcome to GameShop"
+            android:textColor="@color/BasicAppColor"
+            android:textSize="28sp"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="90dp"
+            android:id="@+id/welcomeTV2"
+            android:layout_below="@id/welcomeTV1"
+            android:text="@string/welcomNote"
+            android:layout_centerInParent="true"
+            android:gravity="center"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:id="@+id/welcomeRL2"
+        android:layout_below="@id/welcomeRL1">
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:id="@+id/welcomeIV2"
+            android:src="@drawable/welcome1"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/welcome_continueBTN"
+        android:layout_below="@id/welcomeRL2"
+        android:background="@color/BasicAppColor"
+        android:text="Continue"
+        android:textColor="@color/colorPrimary"
+        android:onClick="Continue"/>
+</RelativeLayout>

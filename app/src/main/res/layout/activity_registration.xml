@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/welcomeRL3">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Time To Start!"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:textSize="28dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/welcomebtnRL"
+        android:layout_below="@+id/welcomeRL3" >
+
+        <Button
+            android:id="@+id/goSignUpbtn"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/signup_btn"
+            android:onClick="RegistrationPage"
+            android:text="Sign Up / Log In"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:id="@+id/SignUpLaterbtn"
+            android:layout_below="@id/goSignUpbtn"
+            android:background="@drawable/login_btn"
+            android:text="I'll sign up later"
+            android:layout_centerInParent="true"
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:onClick="signupLater"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/TandCRL"
+        android:layout_below="@id/welcomebtnRL"
+        >
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:text="@string/TermsandCondtions"
+            android:gravity="center"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:id="@+id/welcomeRL4"
+        android:layout_below="@id/TandCRL" >
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/welcome1"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

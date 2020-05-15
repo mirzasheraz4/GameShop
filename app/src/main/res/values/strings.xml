@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GameShop</string>
+    <string name="welcomNote">GameShop is Pakistan\'s first and complete online gaming store app</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="TermsandCondtions">By continuing, you accept GameShop may use technology to collect performance and usage data to provide a better
+                                      experience. This also includes showing you a more relevant advertisement. You can always adjust preference
+                                      in settings.</string>
+    <string name="about">Gameshop is Pakistan’s 1st and complete online gaming store app where a customer can find and buy any of gaming product like
+        latest gen consoles, high tech pc’s etc. They also can trade of their gaming goods at best price. Through our
+        ‘Eat n Play’ feature, players can get redeemable points as they play and progress in our free mobile games and that
+        points can be redeemable at our partner restaurants.</string>
+</resources>

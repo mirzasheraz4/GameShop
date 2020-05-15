@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "149444105716",
+    "firebase_url": "https://gameshopapp-73eb7.firebaseio.com",
+    "project_id": "gameshopapp-73eb7",
+    "storage_bucket": "gameshopapp-73eb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149444105716:android:1f72d6a6ff773a1857d5a1",
+        "android_client_info": {
+          "package_name": "com.example.gameshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149444105716-900krc1q9vk0n5f8m9luopjiuqagqg50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFc5VcBYUD-E8nVsFF_6dMl3A8ATmQKcQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149444105716-900krc1q9vk0n5f8m9luopjiuqagqg50.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
